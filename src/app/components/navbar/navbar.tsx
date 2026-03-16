@@ -19,13 +19,6 @@ export default function Navbar() {
         href="/"
         prefetch={true}   
       >
-        <Image
-          src="/logo.png"
-          alt="Logo"
-          width={40}
-          height={40}
-          className="me-2"
-        />
         My Ecommerce
       </Link>
 

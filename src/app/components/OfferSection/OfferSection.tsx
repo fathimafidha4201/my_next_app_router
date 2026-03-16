@@ -1,13 +1,13 @@
 export default function OffersSection() {
   return (
     <div className="container my-5">
-      <h2 className="mb-4 fw-semibold">Today's Offers</h2>
+      <h2 className="mb-4 fw-semibold text-light">Today's Offers</h2>
 
       <div className="row">
   
         <div className="col-md-4 mb-4">
           <div
-            className="p-4 text-center h-100"
+            className="p-4 text-center h-100 text-primary"
             style={{
               borderRadius: "12px",
               backgroundColor: "#f8f9fa",
@@ -20,9 +20,10 @@ export default function OffersSection() {
             </p>
           </div>
         </div>
+
         <div className="col-md-4 mb-4">
           <div
-            className="p-4 text-center h-100"
+            className="p-4 text-center h-100 text-success"
             style={{
               borderRadius: "12px",
               backgroundColor: "#f8f9fa",
@@ -35,9 +36,10 @@ export default function OffersSection() {
             </p>
           </div>
         </div>
+
         <div className="col-md-4 mb-4">
           <div
-            className="p-4 text-center h-100"
+            className="p-4 text-center h-100 text-danger"
             style={{
               borderRadius: "12px",
               backgroundColor: "#f8f9fa",
@@ -50,6 +52,7 @@ export default function OffersSection() {
             </p>
           </div>
         </div>
+
       </div>
     </div>
   );
